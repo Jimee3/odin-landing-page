@@ -1,0 +1,43 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+/* .body {
+    display: flex;
+} */
+
+.header {
+    background-color: #1F2937;
+    /* flex: 1; */
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+}
+
+.header h3 {
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
