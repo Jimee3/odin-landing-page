@@ -16,6 +16,7 @@ html, body, * {
 .hero-header {
     background-color: #1F2937;
     margin: 0px;
+    padding-top: 25px;
     display: flex;
     justify-content: space-around;
 }
@@ -37,7 +38,7 @@ ul {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 10px;
+    gap: 25px;
 }
 
 a {
@@ -46,9 +47,15 @@ a {
 
 .hero-content {
     background-color: #1F2937;
+    padding: 100px 0px;
     display: flex;
     justify-content: center;
+    gap: 175px;
     /* flex: 1 1 1500px; */
+}
+
+.hero-container {
+    width: 500px;
 }
 
 h1 {
@@ -57,6 +64,20 @@ h1 {
     color: #F9FAF8;
     padding: 0;
     margin: 0;
+}
+
+.hero-container p {
+    margin: 20px 0px;;
+}
+
+button {
+    background-color: #3882f6;
+    border: 0;
+    padding: 10px 35px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 .hero-image {
