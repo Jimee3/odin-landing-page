@@ -51,7 +51,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 175px;
-    /* flex: 1 1 1500px; */
+    flex-wrap: wrap;
 }
 
 .hero-container {
@@ -88,4 +88,5 @@ button {
     justify-content: center;
     align-items: center;
     margin: 0;
+    flex-shrink: 0;
 }
