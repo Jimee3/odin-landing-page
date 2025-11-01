@@ -186,3 +186,15 @@ h1 {
     border-radius: 10px;
     border: 2px,solid,white;
 }
+
+footer {
+    background-color: #1F2937;
+    padding: 30px 0px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
