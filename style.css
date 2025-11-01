@@ -123,3 +123,29 @@ button {
     margin-top: 5px;
     text-align: center;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    width: 850px;
+}
+
+#quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    /* text-align: center; */
+}
+
+#quote-cite {
+    text-align: end;
+    font-weight: 600;
+    padding-right: 50px;
+    font-size: 18px;
+}
