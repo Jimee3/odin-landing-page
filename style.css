@@ -90,3 +90,36 @@ button {
     margin: 0;
     flex-shrink: 0;
 }
+
+.information h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin-bottom: 40px;
+}
+
+.information-item {
+    width: 160px;
+}
+
+.information-image {
+    width: 150px;
+    height: 150px;
+    border: solid,#3882f6;
+    border-radius: 15px;
+    /* padding: 100px; */
+}
+
+.information-item p {
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: center;
+}
