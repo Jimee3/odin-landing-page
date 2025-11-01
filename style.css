@@ -70,7 +70,7 @@ h1 {
     margin: 20px 0px;;
 }
 
-button {
+.hero-container button {
     background-color: #3882f6;
     border: 0;
     padding: 10px 35px;
@@ -103,7 +103,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 75px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .information-item {
@@ -148,4 +148,41 @@ button {
     font-weight: 600;
     padding-right: 50px;
     font-size: 18px;
+}
+
+.CTA-section {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CTA {
+    width: 1200px;
+    padding: 50px 0px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.CTA p {
+    color: white;
+    font-size: 18px;
+}
+
+.CTA h4 {
+    color: white;
+    font-size: 20px;
+}
+
+.CTA button {
+    background-color: #3882f6;
+    padding: 10px 35px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px,solid,white;
 }
